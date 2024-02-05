@@ -5,8 +5,8 @@ import threading
 import pyfiglet
 
 import beautifish.colors as cl 
-from icons import icons as ic
-import decorators as dc
+import beautifish.icons as ic
+import beautifish.decorators as dc 
 
 from __beautifish_utils__.give_color import __give_color
 from __beautifish_utils__.recursive_dict_print import __print_tree, __print_list
