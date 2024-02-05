@@ -1,5 +1,3 @@
-import msvcrt
-
 import beautifish.colors as cl 
 from beautifish.__beautifish_utils__.give_color import __give_color, __give_bg
 from beautifish.__beautifish_utils__.check_os import __check_os_type
@@ -12,6 +10,8 @@ def __get_input(msg:str="",color:str="pink"):
     os_type = __check_os_type()
 
     if os_type.lower()=="windows":
+        import msvcrt
+        
         while True:
             key = msvcrt.getch().decode('utf-8')
             if key == '\r':  # Enter key pressed
