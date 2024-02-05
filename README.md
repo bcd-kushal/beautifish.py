@@ -1,6 +1,6 @@
-# Beautifish: Shell Data Decorator & Icons Library
+# Beautifish: Console Decorator & Icons Library
 
-`beautifish` is a Python package that provides a set of utilities for decorating and enhancing the visual representation of data in the shell, along with a collection of shell icons to make your terminal experience more delightful.
+`beautifish` is a Python package that provides a set of utilities for decorating and enhancing the visual representation of data in the console, along with a collection of supported icons to make your console experience more delightful.
 
 ```bash
 pip install beautifish
@@ -8,8 +8,11 @@ pip install beautifish
 
 ## :sparkles: Features
 
-- **Shell Data Decoration:** Beautify your shell output by using decorators to highlight and structure data.
-- **Shell Icons Library:** A collection of icons to use in your shell scripts or outputs.
+- **Console Data Decoration:** Beautify your console output by using decorators to highlight, format and structure data.
+- **Pre-defined Templates:** A collection of important templates to get started with, to put aside the worry of its UI.
+- **Supported Icons Library:** A collection of icons to use in your console scripts or outputs.
+
+A complete documentation will be out soon for the same.
 
 ## :arrow_down: Installation
 
@@ -20,38 +23,69 @@ pip install beautifish
 ```
 
 
-## :desktop: Usage
+## :sunflower: Usage
 
-### Shell data decoration
+### Console data decoration
 
 Initialize beautifish client and turn desired texts into colored shell texts:
 
-```bash
-from beautifish import initialize as beautifish_init
-beautifish = beautifish_init.beautifish_initalize()
+```python
+import beautifish.decorators as bfd
+import beautifish.colors as bfc
 ```
 
-```bash
+```python
+# beautifish.decorators as bfd
 s = "Beautiful fishes"
-s = beautifish.blue_text(s)
-s = beautifish.green_text(s)
+s = bfd.italic(s)
+s = bfd.strikethrough(s)
+
+# beautifish.colors as bfc
+s = "Beautiful fishes"
+s = bfc.blue_text(s)     
+s = bfc.green_text(s)
 ```
 
-### Shell icons library
+### Pre-defined templates
+
+Import and use from a plethora of useful templates for productivity and focusing on the work at hand:
+
+```python
+import beautifish.templates as bft
+```
+
+```python
+# show data as tree
+data = {...}  
+bft.tree(data)
+
+# color your inputs  
+age = bft.input("Enter age:")
+
+# create loading bar
+bft.loading_bar(iterations=40,msg="Downloading")
+
+# create ascii text banner
+bft.banner("Beautifish",color="yellow")
+```
+
+### Supported icons library
 
 Import and use all supported shell icons out-of-the-box:
 
-```bash
-from beautifish.shell_icons import *
+```python
+import beautifish.icons as bfi
 
-msg = f"{TICK} Correct answer"
-err = f"{CROSS} Wrong answer"
+msg = f"{bfi.TICK} Correct answer"
+err = f"{bfi.WARNING} Sure to proceed?"
 ```
 
-Supported shell icons:
+All supported icons:
 
-`TICK`, `CROSS`, `DOT` 
+`TICK`, `CROSS`, `DOT`, `WARNING`, `ARROW_DOWN`, `ARROW_UP`, `ARROW_LEFT`, `ARROW_RIGHT`, `ARROW_RIGHT2`, `SPARKLE`, `STAR`, `CLOCK`, `DANGER`,  `DASH`, `CHECK`, `LIGHTNING`, `HOURGLASS`  
 
+
+<hr>
 
 
 ## :handshake: Contributions
