@@ -1,5 +1,6 @@
 import beautifish.colors as cl
 import beautifish.decorators as dc
+import beautifish.icons as ic
 
 def __print_tree(data:dict,offset:int,step:int,icons:list,icon_index:int):
 
@@ -22,7 +23,7 @@ def __print_tree(data:dict,offset:int,step:int,icons:list,icon_index:int):
 
             __print_tree(val,offset+step,step,icons,(icon_index+1)%len(icons))
 
-    x = spaces[:len(spaces)-step-1] + f"{dc.dim(cl.gray_text("─"))}"
+    x = spaces[:len(spaces)-step-1] + f"{dc.dim(cl.gray_text(ic.DASH))}"
     last_d = x.rfind("│")
     if last_d > -1:
         x = x[:last_d] + "└" + x[last_d+1:]
