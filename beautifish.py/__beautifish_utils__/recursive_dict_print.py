@@ -1,5 +1,5 @@
 import beautifish.colors as cl
-import decorators as dc
+import beautifish.decorators as dc
 
 def __print_tree(data:dict,offset:int,step:int,icons:list,icon_index:int):
 

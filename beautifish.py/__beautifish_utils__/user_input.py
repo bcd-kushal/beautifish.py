@@ -1,7 +1,8 @@
-import beautifish.colors as cl 
-from .give_color import __give_color, __give_bg
-from .check_os import __check_os_type
 import msvcrt
+
+import beautifish.colors as cl 
+from beautifish.__beautifish_utils__.give_color import __give_color, __give_bg
+from beautifish.__beautifish_utils__.check_os import __check_os_type
 
 def __get_input(msg:str="",color:str="pink"):
     print(__give_bg(msg,color) + " ",end='',flush=True)
