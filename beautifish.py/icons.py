@@ -1,0 +1,20 @@
+class icons:
+    
+    # shell icons ----------------------------------------
+    TICK            = '\u2713'
+    CROSS           = '\u2715'
+    DOT             = '\u2022'
+    WARNING         = '\u26A0'
+    ARROW_DOWN      = '\u2193'
+    ARROW_UP        = '\u2191'
+    ARROW_LEFT      = '\u2190'
+    ARROW_RIGHT     = '\u2192'
+    ARROW_RIGHT2    = '\u21D2'
+    SPARKLE         = '\u2728'
+    STAR            = '\u2B50'
+    CLOCK           = '\u23F2'
+    DANGER          = '\u2620'
+    DASH            = '\u2500'
+    CHECK           = '\u2705'
+    LIGHTNING       = '\u26A1'
+    HOURGLASS       = '\u231B'
