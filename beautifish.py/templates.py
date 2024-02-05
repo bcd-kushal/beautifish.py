@@ -8,9 +8,9 @@ import beautifish.colors as cl
 import beautifish.icons as ic
 import beautifish.decorators as dc 
 
-from __beautifish_utils__.give_color import __give_color
-from __beautifish_utils__.recursive_dict_print import __print_tree, __print_list
-from __beautifish_utils__.user_input import __get_input
+from beautifish.__beautifish_utils__.give_color import __give_color
+from beautifish.__beautifish_utils__.recursive_dict_print import __print_tree, __print_list
+from beautifish.__beautifish_utils__.user_input import __get_input
 
 DENSITY_MODES = [ "compact", "spaced" ]
 DEFINED_COLORS = cl.color.DEFINED_COLORS
