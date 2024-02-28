@@ -1,5 +1,11 @@
 # Beautifish: Console Decorator & Icons Library
 
+<img style="width:24px" title="python3" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png"/> &nbsp;
+<img style="width:24px" title="linux" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa"/> &nbsp;
+<img style="width:24px" title="windows" src="https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png"/> &nbsp;
+<img style="width:24px" title="macOS" src="https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png"/> &nbsp;
+<img style="width:24px" title="jupyter" src="https://user-images.githubusercontent.com/25181517/183914128-3fc88b4a-4ac1-40e6-9443-9a30182379b7.png"/> &nbsp;
+
 `beautifish` is a Python package that provides a set of utilities for decorating and enhancing the visual representation of data in the console, along with a collection of supported icons to make your console experience more delightful.
 
 ```bash
