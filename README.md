@@ -28,7 +28,6 @@ You can install `beautifish` using `pip`:
 pip install beautifish
 ```
 
-
 ## :sunflower: Usage
 
 ### Console data decoration
