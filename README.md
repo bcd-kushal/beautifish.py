@@ -89,7 +89,6 @@ All supported icons:
 
 `TICK`, `CROSS`, `DOT`, `WARNING`, `ARROW_DOWN`, `ARROW_UP`, `ARROW_LEFT`, `ARROW_RIGHT`, `ARROW_RIGHT2`, `SPARKLE`, `STAR`, `CLOCK`, `DANGER`,  `DASH`, `CHECK`, `LIGHTNING`, `HOURGLASS`  
 
-
 <hr>
 
 
