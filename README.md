@@ -91,7 +91,6 @@ All supported icons:
 
 <hr>
 
-
 ## :handshake: Contributions
 
 Contributions are welcome! 
