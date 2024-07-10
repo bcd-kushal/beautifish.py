@@ -1,4 +1,4 @@
-# Beautifish: Console Decorator & Icons Library
+# Beautifish: Console decorator & Icons library
 
 <img style="width:24px" title="python3" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png"/> &nbsp;
 <img style="width:24px" title="linux" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa"/> &nbsp;
