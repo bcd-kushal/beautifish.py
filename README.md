@@ -6,7 +6,7 @@
 <img style="width:24px" title="macOS" src="https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png"/> &nbsp;
 <img style="width:24px" title="jupyter" src="https://user-images.githubusercontent.com/25181517/183914128-3fc88b4a-4ac1-40e6-9443-9a30182379b7.png"/> &nbsp;
 
-`beautifish` is a Python package that provides a set of utilities for decorating and enhancing the visual representation of data in the console, along with a collection of supported icons to make your console experience more delightful.
+`beautifish` is a `python` package that provides a set of utilities for decorating and enhancing the visual representation of data in the console, along with a collection of supported icons to make your console experience more delightful.
 
 ```bash
 pip install beautifish
