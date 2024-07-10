@@ -14,9 +14,9 @@ pip install beautifish
 
 ## :sparkles: Features
 
-- **Console Data Decoration:** Beautify your console output by using decorators to highlight, format and structure data.
-- **Pre-defined Templates:** A collection of important templates to get started with, to put aside the worry of its UI.
-- **Supported Icons Library:** A collection of icons to use in your console scripts or outputs.
+- **Console data decoration:** Beautify your console output by using decorators to highlight, format and structure data.
+- **Pre-defined templates:** A collection of important templates to get started with, to put aside the worry of its UI.
+- **Supported icons library:** A collection of icons to use in your console scripts or outputs.
 
 A complete documentation will be out soon for the same.
 
